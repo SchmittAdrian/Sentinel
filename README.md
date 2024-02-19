@@ -92,7 +92,7 @@ O Sentinel é um sistema de monitoramento por câmeras desenvolvido em Python, u
 
 Antes de executar o sistema, certifique-se de ter as seguintes dependências instaladas:
 
-- Python 3.x
+- Python 3.11
 - OpenCV
 - Ultralytics YOLO
 - Flet
