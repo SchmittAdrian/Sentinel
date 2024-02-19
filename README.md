@@ -68,3 +68,75 @@ Run the application:
 ```bash
 python main.py
 ```
+
+# Sentinel
+Sentinel - Sistema de Monitoramento por Câmeras
+
+Visão Geral
+
+O Sentinel é um sistema de monitoramento por câmeras desenvolvido em Python, utilizando a biblioteca Ultralytics YOLO para detecção de objetos em tempo real. O sistema é composto por uma interface gráfica construída com o framework Flet e integração com um banco de dados MySQL para gerenciamento das câmeras.
+
+## Funcionalidades
+
+- Visualização em Tempo Real: O sistema permite a visualização em tempo real das câmeras cadastradas, destacando objetos detectados na imagem.
+
+- Cadastro de Câmeras: É possível cadastrar novas câmeras, informando número, nome do estabelecimento, endereço, ambiente e contato associados a cada uma.
+
+- Exclusão de Câmeras: Câmeras cadastradas podem ser excluídas do sistema.
+
+- Explorador de Gravações: O sistema possui um botão que abre o explorador de arquivos na pasta de gravações, facilitando o acesso aos registros de vídeo.
+
+- Modo Claro/Escuro: O sistema oferece a opção de alternar entre os modos claro e escuro para melhor adaptação às preferências do usuário.
+
+## Pré-requisitos
+
+Antes de executar o sistema, certifique-se de ter as seguintes dependências instaladas:
+
+- Python 3.x
+- OpenCV
+- Ultralytics YOLO
+- Flet
+- MySQL Connector
+- Winsound (for Windows)
+
+## Configuração do Banco de Dados
+
+O sistema utiliza um banco de dados MySQL para armazenar informações das câmeras. Certifique-se de configurar corretamente as credenciais no arquivo backend.py:
+
+```bash
+  db_connection = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="sua_senha",
+    database="sentinel"
+)
+```
+Utilize estes parâmetros para cria seu banco de dados:
+```bash
+CREATE DATABASE sentinel;
+
+CREATE TABLE cameras (
+    numero INT PRIMARY KEY,
+    localizacao VARCHAR(255),
+    endereco VARCHAR(255),
+    comodo VARCHAR(255),
+    contato VARCHAR(255)
+);
+```
+## Execução do Sistema
+Clone o repositório para sua máquina local:
+
+```bash
+git clone https://github.com/SchmittAdrian/Sentinel.git
+cd sentinel
+```
+Instale as dependências:
+```bash
+pip install -r requirements.txt
+```
+
+Execute o aplicativo:
+```bash
+python main.py
+```
+
