@@ -21,7 +21,7 @@ Sentinel is a camera monitoring system developed in Python, utilizing the Ultral
 
 Before running the system, make sure to have the following dependencies installed:
 
-- Python 3.x
+- Python 3.11
 - OpenCV
 - Ultralytics YOLO
 - Flet
