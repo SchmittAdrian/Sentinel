@@ -5,7 +5,7 @@ Overview
 
 Sentinel is a camera monitoring system developed in Python, utilizing the Ultralytics YOLO library for real-time object detection. The system features a graphical interface built with the Flet framework and integrates with a MySQL database for camera management.
 
-[![LOGO](https://i.postimg.cc/d0wMzsH6/Whats-App-Image-2024-02-26-at-09-35-59.jpg)](https://postimg.cc/CRP68gVn)
+[![LOGO](https://i.postimg.cc/13q3Ph9P/LOGO-OFICIAL-TRANSPARENTE.png)](https://postimg.cc/RWvBQY6b)
 
 ## Screenshots
 
@@ -86,7 +86,7 @@ Visão Geral
 
 O Sentinel é um sistema de monitoramento por câmeras desenvolvido em Python, utilizando a biblioteca Ultralytics YOLO para detecção de objetos em tempo real. O sistema é composto por uma interface gráfica construída com o framework Flet e integração com um banco de dados MySQL para gerenciamento das câmeras.
 
-[![LOGO](https://i.postimg.cc/d0wMzsH6/Whats-App-Image-2024-02-26-at-09-35-59.jpg)](https://postimg.cc/CRP68gVn)
+[![LOGO](https://i.postimg.cc/13q3Ph9P/LOGO-OFICIAL-TRANSPARENTE.png)](https://postimg.cc/RWvBQY6b)
 
 ## Screenshots
 
