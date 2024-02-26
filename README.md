@@ -71,8 +71,7 @@ python main.py
 
 ## Comments
 
-The prediction model used in the project is private and for the exclusive use of project collaborators. This repository contains the standard detection model, making it possible to switch to a personalized model.
-
+The prediction model used in the project is private and for the exclusive use of collaborators. This repository contains the standard detection model, making it possible to switch to a customized model.
 
 # Sentinel
 Sentinel - Sistema de Monitoramento por Câmeras
@@ -147,4 +146,4 @@ python main.py
 
 ## Observações
 
-O modelo de predição utilizado no projeto é privado e de uso exclusivo dos colaboradores do projeto, neste reposositório, contém o modelo padrão de detecção padrão, sendo possível a troca troca para um modelo perssonalizado. 
+O modelo de predição utilizado no projeto é privado e de uso exclusivo dos colaboradores. Neste reposositório, contém o modelo padrão de detecção, sendo possível a troca para um modelo perssonalizado. 
