@@ -70,7 +70,7 @@ Install the dependencies:
 pip install -r requirements.txt
 ```
 
-Install PyTorch+cuda:
+Install PyTorch+Cuda:
 ```bash
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
@@ -154,6 +154,10 @@ cd sentinel
 Instale as dependências:
 ```bash
 pip install -r requirements.txt
+```
+Instale PyTorch+Cuda:
+```bash
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
 
 Execute o aplicativo:
